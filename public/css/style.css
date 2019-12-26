@@ -29,13 +29,22 @@
     font-style: italic;
     text-decoration: black underline;
 }
-
+.product-setion{
+    margin-bottom: 1px solid grey;
+}
 .veges{
     height: 100px;
+}
+.note-p{
+    font-weight: 600;
+    text-transform: capitalize;
 }
 @media(min-width:100px) and (max-width:600px)
 {
     .nav_btn{
         display: none;
+    }
+    .product-section{
+        border-bottom: 0.5px solid lightgray;
     }
 }

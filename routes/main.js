@@ -27,10 +27,9 @@ router.get('/', (req, res) => {
 calculateOffers = (arr) => {
     let offers = []
     for (let i = 0; i < arr.length; i++) {
-        let x = ((arr[i].reg1 - arr[i].pri1) / arr[i].reg1) * 100;
+        let x = Math.floor(((arr[i].reg1 - arr[i].pri1) / arr[i].reg1) * 100)
         offer = 100 - x;
-        offers.push(100 - offer.toFixed(2))
-
+        offers.push(100 - offer)
     }
     return offers
 }
