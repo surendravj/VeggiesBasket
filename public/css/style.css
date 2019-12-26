@@ -1,0 +1,41 @@
+.navbar-brand{
+    font-weight:800;
+    font-size: larger;
+    text-transform:uppercase;
+    color:#000;
+    margin-left: 10px;
+}
+
+.A{
+    font-weight:900;
+    font-size:xx-large;
+    color: green;
+}
+.B{
+    font-weight: bolder;
+    font-size:xx-large;
+    color:orangered;
+}
+.logo{
+    margin-bottom: 10px;
+}
+.carousel-image{
+    height:500px;
+}
+.founder{
+    width:170px;
+}
+.sponsers{
+    font-style: italic;
+    text-decoration: black underline;
+}
+
+.veges{
+    height: 100px;
+}
+@media(min-width:100px) and (max-width:600px)
+{
+    .nav_btn{
+        display: none;
+    }
+}
