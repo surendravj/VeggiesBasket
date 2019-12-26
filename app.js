@@ -15,6 +15,8 @@ app.set('view engine','ejs')
 //middleware for home-page
 app.use(home)
 
+//this is for tesing guthub purpose
+
 
 //congif file for port listening
 app.listen(port,()=>{
