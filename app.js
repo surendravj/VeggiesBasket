@@ -1,7 +1,7 @@
 // React elements configuration
-// import React from 'react';
-// import logo from './logo.svg';
-// import ReactDom from 'react-dom';
+ import React from 'react';
+ import logo from './logo.svg';
+ import ReactDom from 'react-dom';
 
 //external packages importing section
 const express=require('express');
