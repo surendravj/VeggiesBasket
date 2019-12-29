@@ -1,3 +1,8 @@
+// React elements configuration
+// import React from 'react';
+// import logo from './logo.svg';
+// import ReactDom from 'react-dom';
+
 //external packages importing section
 const express=require('express');
 const bodyparser=require('body-parser');
@@ -14,9 +19,6 @@ app.set('view engine','ejs')
 
 //middleware for home-page
 app.use(home)
-
-//this is for tesing guthub purpose
-
 
 //congif file for port listening
 app.listen(port,()=>{
